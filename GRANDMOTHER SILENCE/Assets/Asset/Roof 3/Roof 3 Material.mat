@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Roof Material
+  m_Name: Roof 3 Material
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -26,7 +26,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: e4763438fc8838146b098963994f20ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: d15bb543be1f5cb4c9c6450dcd8ab23e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e4763438fc8838146b098963994f20ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: d15bb543be1f5cb4c9c6450dcd8ab23e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -83,8 +83,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints:
     - _ColorBitDepth: 64
-    - _ResolutionLimit: 341
-    - _SnapsPerUnit: 32
+    - _ResolutionLimit: 345
+    - _SnapsPerUnit: 64
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AffineTextureStrength: 0
@@ -132,7 +132,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8613537873443659836
+--- !u!114 &3895136744099166340
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
