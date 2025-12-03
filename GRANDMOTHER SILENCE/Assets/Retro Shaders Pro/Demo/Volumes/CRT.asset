@@ -30,15 +30,15 @@ MonoBehaviour:
   active: 1
   showInSceneView:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   enabled:
     m_OverrideState: 1
     m_Value: 1
   renderPassEvent:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   distortionStrength:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.15
   distortionSmoothing:
     m_OverrideState: 1
@@ -80,7 +80,7 @@ MonoBehaviour:
     m_Value: 8
   pixelSize:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 8
   randomWear:
     m_OverrideState: 1
     m_Value: 0.27
