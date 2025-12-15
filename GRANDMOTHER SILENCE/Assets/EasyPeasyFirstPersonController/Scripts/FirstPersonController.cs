@@ -114,7 +114,7 @@ namespace EasyPeasyFirstPersonController
 
                 rotX += mouseX;
                 rotY -= mouseY;
-                rotY = Mathf.Clamp(rotY, -90f, 90f);
+                rotY = Mathf.Clamp(rotY, -50f, 50f);
 
                 xVelocity = Mathf.Lerp(xVelocity, rotX, snappiness * Time.deltaTime);
                 yVelocity = Mathf.Lerp(yVelocity, rotY, snappiness * Time.deltaTime);

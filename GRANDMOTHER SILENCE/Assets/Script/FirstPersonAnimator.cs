@@ -43,4 +43,4 @@ public class FirstPersonAnimator : MonoBehaviour
             animator.SetTrigger("Jump");
         }
     }
-}
+}  
