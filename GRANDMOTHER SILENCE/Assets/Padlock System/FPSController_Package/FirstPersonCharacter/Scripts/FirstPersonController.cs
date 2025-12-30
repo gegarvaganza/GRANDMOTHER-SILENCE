@@ -11,14 +11,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
     public class FirstPersonController : MonoBehaviour
     {
         [SerializeField] private bool m_IsWalking = false;
-        [SerializeField] private float m_WalkSpeed = 4;
-        [SerializeField] private float m_RunSpeed = 10;
+        public float m_WalkSpeed;
+        public float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten = 0.7f;
-        [SerializeField] private float m_JumpSpeed = 5;
-        [SerializeField] private float m_StickToGroundForce = 5;
+        [SerializeField] private float m_JumpSpeed = 10;
+        [SerializeField] private float m_StickToGroundForce = 10;
         [SerializeField] private float m_GravityMultiplier = 2;
         [SerializeField] private MouseLook m_MouseLook = null;
-        [SerializeField] private bool m_UseFovKick = false;
+        [SerializeField] private bool m_UseFovKick = true;
         [SerializeField] private FOVKick m_FovKick = new FOVKick();
         [SerializeField] private bool m_UseHeadBob = false;
         [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2602823581102078048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2602823581102078062}
+  - component: {fileID: 2602823581102078063}
+  m_Layer: 0
+  m_Name: DoorUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2602823581102078062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602823581102078048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2602823581102078063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602823581102078048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a96fc418d453346864e4435ff3afb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextBG: {fileID: 0}
+  interactionUI: {fileID: 0}
+  iconImage: {fileID: 0}
+  keyPromptUI: {fileID: 0}
+  notificationTextUI: {fileID: 0}
+  notificationUIBG: {fileID: 0}
+  TextSize: 36
+  FontType: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  FontStyle: 1
+  FontColor: {r: 1, g: 1, b: 1, a: 1}
+  slotPrefab: {fileID: 1143256599968868494, guid: 5cae81902d6c6c34fbf0f818ab01a2cd, type: 3}
+  inventoryPanel: {fileID: 0}
+  inventoryFadeDuration: 0.2
+  onScreenTimer: 2
+  fadeInDuration: 0.5
+  fadeOutDuration: 0.5
+  crosshairUI: {fileID: 0}

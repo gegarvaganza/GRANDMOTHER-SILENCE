@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class Sound
+public class PadlockSound
 {
 	public string name;
 	public AudioClip clip;
