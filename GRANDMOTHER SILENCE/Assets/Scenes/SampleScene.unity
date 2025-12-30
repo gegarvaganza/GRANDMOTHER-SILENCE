@@ -4248,6 +4248,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 19d2d22d4889dbe439caa1faf1964fc5, type: 3}
   m_PrefabInstance: {fileID: 101037498}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &102405991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dbbd8239de40dee4fa40c7ba73592636, type: 3}
+  m_PrefabInstance: {fileID: 1880598989}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &105643025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48897,7 +48902,7 @@ MonoBehaviour:
   combinationRow3: 0
   combinationRow4: 0
   interactableLock: {fileID: 1223443520}
-  cameraPadlock: {fileID: 0}
+  cameraPadlock: {fileID: 102405991}
   padlockInteractSound: PadlockInteract
   padlockSpinSound: PadlockSpin
   padlockUnlockSound: PadlockUnlock
@@ -59101,7 +59106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b649f5f2e7bd8be41b834b9a9ee5f590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _padlockController: {fileID: 0}
+  _padlockController: {fileID: 1042874116}
 --- !u!4 &1223443523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dbbd8239de40dee4fa40c7ba73592636, type: 3}
