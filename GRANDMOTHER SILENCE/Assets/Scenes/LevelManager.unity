@@ -132937,7 +132937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &353580716762441008
 GameObject:
   m_ObjectHideFlags: 0
@@ -140064,7 +140064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.023529412, g: 0.050980393, b: 0.03137255, a: 0.9019608}
+  m_Color: {r: 0.76862746, g: 0.05490196, b: 0.05490196, a: 0.9019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -140080,7 +140080,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!4 &1081490286855563618
 Transform:
   m_ObjectHideFlags: 0
@@ -141027,7 +141027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6}
+  m_Color: {r: 0.76862746, g: 0.05490196, b: 0.05490196, a: 0.6}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -141043,7 +141043,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!4 &1198491261708180588
 Transform:
   m_ObjectHideFlags: 0
@@ -202726,7 +202726,7 @@ MonoBehaviour:
   IsDead: 0
   MaxHealth: 100
   StartHealth: 100
-  UseHearthbeat: 1
+  UseHearthbeat: 0
   LowHealthPulse: 3
   HealthFadeTime: 0.1
   MinHealthFade: 20
