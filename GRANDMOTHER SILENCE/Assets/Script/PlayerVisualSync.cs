@@ -2,12 +2,23 @@ using UnityEngine;
 
 public class PlayerVisualSync : MonoBehaviour
 {
-    public Animator animator;
-    public CharacterController controller; // HeroPlayer's CharacterController
+    [Header("References")]
+    public Transform fpView; // Assign FPView (camera)
+    public Transform playerVisual; // Assign your PlayerVisual (parent of the body model)
 
-    void Update()
+    void LateUpdate()
     {
-        float speed = new Vector3(controller.velocity.x, 0, controller.velocity.z).magnitude;
-        animator.SetFloat("Speed", speed);
+        if (fpView == null || playerVisual == null) return;
+
+        // Rotate PlayerVisual horizontally to match camera
+        Vector3 euler = playerVisual.eulerAngles;
+        euler.y = fpView.eulerAngles.y;
+        playerVisual.eulerAngles = euler;
+
+        // Optional: you can also rotate the body slightly with vertical camera rotation
+        // Uncomment below if you want slight upper body tilt
+        // Vector3 tilt = playerVisual.localEulerAngles;
+        // tilt.x = fpView.localEulerAngles.x;
+        // playerVisual.localEulerAngles = tilt;
     }
 }
