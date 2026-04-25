@@ -15,21 +15,51 @@ MonoBehaviour:
   Objectives:
   - ObjectiveKey: GoToLivingTheRoom
     ObjectiveTitle:
-      GlocText: 
-      NormalText: Go to living room
+      GlocText: '*Go to living room area'
+      NormalText: Go to living room area
     SubObjectives:
-    - SubObjectiveKey: Entertheliving room
+    - SubObjectiveKey: Enterthelivingroom
       CompleteCount: 0
       ObjectiveText:
-        GlocText: 
-        NormalText: 'Head to the living room to continue exploring the house. '
+        GlocText: '*Enter the living room'
+        NormalText: Enter the living room
   - ObjectiveKey: FindtheLight
     ObjectiveTitle:
-      GlocText: 
-      NormalText: Find the Flashlight
+      GlocText: '*Find the flashlight'
+      NormalText: Find the flashlight
     SubObjectives:
-    - SubObjectiveKey: Pickup The Flashlight
+    - SubObjectiveKey: PickupTheFlashlight
       CompleteCount: 0
       ObjectiveText:
-        GlocText: 
-        NormalText: 'Search the house and find a flashlight to see in the dark. '
+        GlocText: '*Pick up the flashlight to be able see in the dark'
+        NormalText: Pick up the flashlight to be able see in the dark
+  - ObjectiveKey: GoInsideBuilding
+    ObjectiveTitle:
+      GlocText: '*Enter the house'
+      NormalText: Enter the house
+    SubObjectives:
+    - SubObjectiveKey: EnterTheBuilding
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Try enter the house'
+        NormalText: Try enter the house
+  - ObjectiveKey: SearchTheArea
+    ObjectiveTitle:
+      GlocText: Search the area
+      NormalText: Search the area
+    SubObjectives:
+    - SubObjectiveKey: FindTheKey
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Search the key near this area'
+        NormalText: Search the key near this area
+  - ObjectiveKey: OpenTheMainDoor
+    ObjectiveTitle:
+      GlocText: '*Open the main door'
+      NormalText: Open the main door
+    SubObjectives:
+    - SubObjectiveKey: OpenTheDoor
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Open the door and enter the house'
+        NormalText: Open the door and enter the house
