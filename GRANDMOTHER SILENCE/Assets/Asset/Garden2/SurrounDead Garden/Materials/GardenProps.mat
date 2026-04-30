@@ -21,19 +21,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GardenProps
-  m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+  m_Shader: {fileID: 4800000, guid: 71a090e9b5b488349913abe716bb7bc6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _GLOSSINESS_FROM_BASE_ALPHA
-  - _SPECULAR_COLOR
-  m_InvalidKeywords: []
+  - _USE_PIXEL_LIGHTING
+  - _USE_POINT_FILTER_ON
+  m_InvalidKeywords:
+  - _USE_PIXEL_LIGHTING_ON
+  - _USE_VERTEX_COLORS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -65,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8bc6af7197cd0764a8b8810a4d3a2f3d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -96,14 +97,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
+    m_Ints:
+    - _ColorBitDepth: 64
+    - _ResolutionLimit: 230
+    - _SnapsPerUnit: 786
     m_Floats:
     - _AddPrecomputedVelocity: 0
+    - _AffineTextureStrength: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _AmbientLight: 0.02
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
+    - _ColorBitDepthOffset: 1
     - _Cull: 2
     - _Cutoff: 0
     - _DetailNormalMapScale: 1
@@ -128,6 +135,11 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _USE_AMBIENT_OVERRIDE: 0
+    - _USE_DITHERING: 0
+    - _USE_PIXEL_LIGHTING: 1
+    - _USE_POINT_FILTER: 1
+    - _USE_VERTEX_COLORS: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
