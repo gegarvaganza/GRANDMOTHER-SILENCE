@@ -27435,7 +27435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1756017057103630978, guid: e4f62994eadd40542ae420fcfe55c38c, type: 3}
       propertyPath: m_Name
-      value: Night Skybox
+      value: Night Skybox (LevelManager)
       objectReference: {fileID: 0}
     - target: {fileID: 1756017057103630978, guid: e4f62994eadd40542ae420fcfe55c38c, type: 3}
       propertyPath: m_IsActive
@@ -31079,8 +31079,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.509434, g: 0.37576428, b: 0.30998576, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 0.20305403, g: 0.20136172, b: 0.23584908, a: 1}
+  m_Intensity: 1.01
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Retro Skybox Night
+  m_Name: Retro Skybox Night Cutscene 1
   m_Shader: {fileID: -6465566751694194690, guid: 5e4dc85abd18a5a4ea90867121baf2e1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -74,13 +74,13 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Cloud_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Cloud_Color: {r: 0.12934269, g: 0.11258456, b: 0.20754719, a: 1}
     - _Cloud_Height_Thresholds: {r: 0.1, g: 0.5, b: 0, a: 0}
     - _Cloud_Sizes: {r: 5, g: 25, b: 0, a: 0}
     - _Cloud_Velocity: {r: -0.005, g: -0.01, b: 0, a: 0}
     - _Cloud_Visibility_Thresholds: {r: 0.02, g: 0.3, b: 0, a: 0}
-    - _Ground_Color: {r: 0.0073424703, g: 0.008015479, b: 0.047169805, a: 1}
-    - _Sky_Color: {r: 0.08249375, g: 0.07880917, b: 0.21698111, a: 1}
+    - _Ground_Color: {r: 0.16037738, g: 0.046776734, b: 0, a: 1}
+    - _Sky_Color: {r: 0.0619559, g: 0.027367385, b: 0.14150941, a: 1}
     - _Star_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
