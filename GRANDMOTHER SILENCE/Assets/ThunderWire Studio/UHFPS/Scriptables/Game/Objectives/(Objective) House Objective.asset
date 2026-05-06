@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: (Objective) House Objective
   m_EditorClassIdentifier: 
   Objectives:
-  - ObjectiveKey: GoToLivingTheRoom
+  - ObjectiveKey: GoToLivingRoom
     ObjectiveTitle:
-      GlocText: '*Go to living room area'
-      NormalText: Go to living room area
+      GlocText: '*Go to living room'
+      NormalText: Go to living room
     SubObjectives:
     - SubObjectiveKey: Enterthelivingroom
       CompleteCount: 0
