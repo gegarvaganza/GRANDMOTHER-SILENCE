@@ -23,16 +23,6 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Enter the living room'
         NormalText: Enter the living room
-  - ObjectiveKey: FindtheLight
-    ObjectiveTitle:
-      GlocText: '*Find the flashlight'
-      NormalText: Find the flashlight
-    SubObjectives:
-    - SubObjectiveKey: PickupTheFlashlight
-      CompleteCount: 0
-      ObjectiveText:
-        GlocText: '*Pick up the flashlight to be able see in the dark'
-        NormalText: Pick up the flashlight to be able see in the dark
   - ObjectiveKey: GoInsideBuilding
     ObjectiveTitle:
       GlocText: '*Enter the house'
@@ -63,3 +53,13 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Open the door and enter the house'
         NormalText: Open the door and enter the house
+  - ObjectiveKey: FindTheLight
+    ObjectiveTitle:
+      GlocText: '*Find the light'
+      NormalText: Find the light
+    SubObjectives:
+    - SubObjectiveKey: FindFlashlight
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Find flash light to see in the dark'
+        NormalText: Find flash light to see in the dark
