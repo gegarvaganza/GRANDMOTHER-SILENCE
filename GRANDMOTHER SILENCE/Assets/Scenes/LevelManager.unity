@@ -92067,7 +92067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1330755669629619180, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -176961,7 +176961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1330755669629619180, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -252130,7 +252130,7 @@ MonoBehaviour:
     JumpHeight: 1
   PlayerFeatures:
     EnableStamina: 0
-    RunToggle: 0
+    RunToggle: 1
     CrouchToggle: 1
     NormalizeMovement: 0
   PlayerSliding:
@@ -261573,7 +261573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &3236783209137321237
 GameObject:
   m_ObjectHideFlags: 0
