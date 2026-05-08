@@ -74303,7 +74303,7 @@ GameObject:
   - component: {fileID: 712057624}
   - component: {fileID: 712057627}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: GoToLivingfRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86053,7 +86053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2741658865384199535, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.014
+      value: 10.0255
       objectReference: {fileID: 0}
     - target: {fileID: 2741658865384199535, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: m_LocalPosition.z
@@ -86090,6 +86090,14 @@ PrefabInstance:
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: ExamineType
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: ShowExamineTitle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: PaperText.GlocText
+      value: okok
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: PaperText.NormalText
@@ -86144,7 +86152,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7349935691225375443, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1599228549}
+      addedObject: {fileID: 1599228553}
   m_SourcePrefab: {fileID: 100100000, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
 --- !u!1001 &819676478
 PrefabInstance:
@@ -98196,6 +98204,147 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1549316198}
   m_SourcePrefab: {fileID: 100100000, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
+--- !u!1 &928045662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928045663}
+  - component: {fileID: 928045667}
+  - component: {fileID: 928045666}
+  - component: {fileID: 928045665}
+  - component: {fileID: 928045664}
+  m_Layer: 6
+  m_Name: Glare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928045663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928045662}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.013290283, y: -0, z: -0, w: 0.99991167}
+  m_LocalPosition: {x: -0.0029, y: -0.0011, z: -0.0033}
+  m_LocalScale: {x: 0.10578, y: 0.10577999, z: 0.10577999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1880699504}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928045664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928045662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdc65797064a324ea4ba0c8adf212cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorParam: _BaseColor
+  GlareState: 1
+  ScaleDistance:
+    min: 1
+    max: 4
+  MinScaleDistance: 0.5
+  NearFarDistance:
+    min: 1.75
+    max: 10
+  BlendDistance: 1
+  PulseScale:
+    min: 0
+    max: 0.2
+  MinWaitTime: 1
+  PulseSpeed: 2
+  RotateSpeed: 3
+  EnableDistanceScaling: 1
+  EnableNearFading: 0
+  EnableRotation: 1
+--- !u!64 &928045665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928045662}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &928045666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928045662}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 270a7902a1a26964a934d96699733acc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &928045667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928045662}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &928266907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea219a7608b2afd49b3f8590db892cf1, type: 3}
@@ -110228,7 +110377,7 @@ GameObject:
   - component: {fileID: 1028490577}
   - component: {fileID: 1028490576}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ExamineTheNote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129221,10 +129370,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7092407687920727926, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1581466358}
+    - targetCorrespondingSourceObject: {fileID: 7092407687920727926, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 928045663}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8695563393730487750, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1880699505}
+      addedObject: {fileID: 1880699510}
   m_SourcePrefab: {fileID: 100100000, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
 --- !u!4 &1208628185 stripped
 Transform:
@@ -144689,7 +144841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358279876}
   m_Layer: 0
-  m_Name: 'LivingRoomTrigger '
+  m_Name: '1) LivingRoomTrigger '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149598,7 +149750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403942322}
   m_Layer: 0
-  m_Name: LivingRoomTrigger2 (2)
+  m_Name: 3) TakeTheKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156364,7 +156516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1462678579}
   m_Layer: 0
-  m_Name: LivingRoomTrigger2
+  m_Name: 2) DrippingSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170308,7 +170460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1193cc42578b51349ae91df02822e87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1599228549
+--- !u!114 &1599228553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170320,15 +170472,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 0
-  objectiveType: 2
+  triggerType: 1
+  objectiveType: 1
   objectiveToAdd:
-    ObjectiveKey: TakeTheKey
-    SubObjectives:
-    - 
-  objectiveToComplete:
     ObjectiveKey: 
     SubObjectives: []
+  objectiveToComplete:
+    ObjectiveKey: InspectTheTornNote
+    SubObjectives:
+    - ExamineTheNote
 --- !u!1001 &1599240372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -171260,7 +171412,7 @@ GameObject:
   - component: {fileID: 1609815643}
   - component: {fileID: 1609815644}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: FindTheFlashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201331,27 +201483,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7092407687920727926, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
   m_PrefabInstance: {fileID: 1208102751}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1880699505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880699503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Override: 0
-  CustomIcon: {fileID: 0}
-  IconSize: {x: 0, y: 0}
-  OverrideCulling: 0
-  CullLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  DistanceShow: 4
-  DistanceHide: 4
 --- !u!114 &1880699506 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8712222069423591463, guid: a3a7a1a3c4743bb45987089a519f3f28, type: 3}
@@ -201363,6 +201494,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1193cc42578b51349ae91df02822e87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1880699510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880699503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 1
+  objectiveType: 1
+  objectiveToAdd:
+    ObjectiveKey: 
+    SubObjectives: []
+  objectiveToComplete:
+    ObjectiveKey: InspectTheTornNote
+    SubObjectives:
+    - ExamineTheNote
 --- !u!1001 &1880980628
 PrefabInstance:
   m_ObjectHideFlags: 0

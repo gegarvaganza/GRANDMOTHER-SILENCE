@@ -93,13 +93,3 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Examine the note'
         NormalText: Examine the note
-  - ObjectiveKey: TakeTheKey
-    ObjectiveTitle:
-      GlocText: '*Take the key'
-      NormalText: Take the key
-    SubObjectives:
-    - SubObjectiveKey: GrabTheKey
-      CompleteCount: 0
-      ObjectiveText:
-        GlocText: '*Grab the key'
-        NormalText: Grab the key
