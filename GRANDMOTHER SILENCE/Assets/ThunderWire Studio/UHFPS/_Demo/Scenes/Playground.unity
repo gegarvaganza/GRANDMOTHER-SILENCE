@@ -22853,6 +22853,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504080430}
   m_Mesh: {fileID: -6692290496178104961, guid: 981f3baed40547648b5665750d56ef42, type: 3}
+--- !u!1 &505509678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+  m_PrefabInstance: {fileID: 1153431599}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &505509679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505509678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7d49080dde3a74985f65a3ed7f4f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationEvents:
+  - Name: Disable
+    OnCallEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 505509678}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!4 &505509680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+  m_PrefabInstance: {fileID: 1153431599}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &505509681 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+  m_PrefabInstance: {fileID: 1153431599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &506222737
 GameObject:
   m_ObjectHideFlags: 0
@@ -23185,15 +23229,15 @@ MonoBehaviour:
   JumpscareSound:
     audioClip: {fileID: 8300000, guid: c150370721c54be4e9d4e139aaf1ad73, type: 3}
     volume: 1
-  Animator: {fileID: 1298969657}
-  AnimatorStateName: Scream
-  AnimatorTrigger: Scream
+  Animator: {fileID: 505509681}
+  AnimatorStateName: JumpscareBathroom
+  AnimatorTrigger: JumpscareBathroom
   InfluenceFear: 1
   TentaclesIntensity: 0.2
   TentaclesSpeed: 1
   VignetteStrength: 0.2
   LookAtJumpscare: 1
-  LookAtTarget: {fileID: 1392115970}
+  LookAtTarget: {fileID: 1832646470}
   LookAtDuration: 0.5
   LockPlayer: 1
   EndJumpscareWithEvent: 0
@@ -23206,7 +23250,7 @@ MonoBehaviour:
   TriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1298969654}
+      - m_Target: {fileID: 505509678}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -23226,7 +23270,19 @@ MonoBehaviour:
       m_Calls: []
   OnJumpscareEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 505509678}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &507353429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49317,6 +49373,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152833033}
   m_Mesh: {fileID: -6692290496178104961, guid: 981f3baed40547648b5665750d56ef42, type: 3}
+--- !u!1001 &1153431599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1334335600}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.42254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.713963
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.75533503
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6553389
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -81.891
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_Name
+      value: GhostBathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c69e79686efbc3c49a13e89663d96845, type: 2}
+    - target: {fileID: 7963475352875512715, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca5549bf3b92094f8fa05fd1d1b0469, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 505509679}
+  m_SourcePrefab: {fileID: 100100000, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
 --- !u!1 &1157673715
 GameObject:
   m_ObjectHideFlags: 0
@@ -54579,6 +54707,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5831413704217467943}
+  - {fileID: 505509680}
   - {fileID: 1298969655}
   - {fileID: 1054795393715049811}
   m_Father: {fileID: 1412205160}
@@ -81630,6 +81759,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831324715}
   m_Mesh: {fileID: -6659003102834268097, guid: 4ea876e08fcb5a747b615d3ac4adab28, type: 3}
+--- !u!4 &1832646470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5465940246521907071, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
+  m_PrefabInstance: {fileID: 1153431599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1842740107
 GameObject:
   m_ObjectHideFlags: 0
