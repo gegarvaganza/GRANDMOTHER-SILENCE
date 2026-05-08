@@ -63,3 +63,43 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Find flash light to see in the dark'
         NormalText: Find flash light to see in the dark
+  - ObjectiveKey: InvestigateTheStrangeSound
+    ObjectiveTitle:
+      GlocText: '*Investigate the strange sound'
+      NormalText: Investigate the strange sound
+    SubObjectives:
+    - SubObjectiveKey: LookAroundTheHouse
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Look around the house'
+        NormalText: Look around the house
+  - ObjectiveKey: FindTheSourceOfDrippingSound
+    ObjectiveTitle:
+      GlocText: '*Find the source of dripping sound'
+      NormalText: Find the source of dripping sound
+    SubObjectives:
+    - SubObjectiveKey: SearchTheBathroom
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Search the bathroom'
+        NormalText: Search the bathroom
+  - ObjectiveKey: InspectTheTornNote
+    ObjectiveTitle:
+      GlocText: '*Inspect the torn note'
+      NormalText: Inspect the torn note
+    SubObjectives:
+    - SubObjectiveKey: ExamineTheNote
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Examine the note'
+        NormalText: Examine the note
+  - ObjectiveKey: TakeTheKey
+    ObjectiveTitle:
+      GlocText: '*Take the key'
+      NormalText: Take the key
+    SubObjectives:
+    - SubObjectiveKey: GrabTheKey
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Grab the key'
+        NormalText: Grab the key
