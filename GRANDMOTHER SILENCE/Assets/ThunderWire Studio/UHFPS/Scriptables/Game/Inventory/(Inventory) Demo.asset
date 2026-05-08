@@ -1289,8 +1289,10 @@ MonoBehaviour:
           NormalText: VHS Cassette
         descriptionKey:
           GlocText: item.description.vhscassette
-          NormalText: A classic, durable format for video recording and archiving
-            memories or documenting important events.
+          NormalText: 'Name: {name}
+
+            A classic, durable format for video
+            recording and archiving memories or documenting important events.'
     - GUID: 21cc6375d5614192aac1fedce6147cfa
       SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
       Title: Red Keycard
