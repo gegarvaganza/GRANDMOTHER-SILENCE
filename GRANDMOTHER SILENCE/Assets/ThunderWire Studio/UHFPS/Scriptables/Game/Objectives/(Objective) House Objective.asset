@@ -93,3 +93,23 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Examine the note'
         NormalText: Examine the note
+  - ObjectiveKey: FigureOutWhereTheKey
+    ObjectiveTitle:
+      GlocText: '*Figure out where the key'
+      NormalText: Figure out where the key
+    SubObjectives:
+    - SubObjectiveKey: FindWhereThisKeyBelongToo
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Find where this key belong too'
+        NormalText: Find where this key belong too
+  - ObjectiveKey: SearchTheRoomForClue
+    ObjectiveTitle:
+      GlocText: '*Search the room for clue'
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: FindOutWhatHappen
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Find out what happen'
+        NormalText: 
