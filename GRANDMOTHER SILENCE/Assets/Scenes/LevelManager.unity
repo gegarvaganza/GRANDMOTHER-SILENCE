@@ -225784,7 +225784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2076655386
 Transform:
   m_ObjectHideFlags: 0
@@ -225793,13 +225793,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076655385}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.7071066}
-  m_LocalPosition: {x: -1.219, y: -1.4505167, z: 25.658052}
-  m_LocalScale: {x: 1.9368702, y: 0.33749866, z: 1.0419966}
+  m_LocalRotation: {x: -0, y: -0.99669087, z: -0, w: -0.08128567}
+  m_LocalPosition: {x: -2.608, y: -1.4505167, z: 24.538}
+  m_LocalScale: {x: 3.8744688, y: 0.33749866, z: 0.2088578}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1193584736}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -189.325, z: 0}
 --- !u!114 &2076655387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225818,7 +225818,7 @@ MonoBehaviour:
   JumpscareImage: {fileID: 0}
   JumpscareModelID: scare_zombie
   JumpscareSound:
-    audioClip: {fileID: 8300000, guid: e4167af307bfa53478565f58e3dfdb6a, type: 3}
+    audioClip: {fileID: 8300000, guid: 649ba739ad4921f4bb80d59cb6e4872c, type: 3}
     volume: 1
   Animator: {fileID: 0}
   AnimatorStateName: Jumpscare
