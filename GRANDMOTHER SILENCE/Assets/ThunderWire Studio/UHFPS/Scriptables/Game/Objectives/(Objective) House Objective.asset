@@ -106,10 +106,20 @@ MonoBehaviour:
   - ObjectiveKey: SearchTheRoomForClue
     ObjectiveTitle:
       GlocText: '*Search the room for clue'
-      NormalText: 
+      NormalText: Search the room for clue
     SubObjectives:
     - SubObjectiveKey: FindOutWhatHappen
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Find out what happen'
-        NormalText: 
+        NormalText: Find out what happen
+  - ObjectiveKey: FixTheFuseDP
+    ObjectiveTitle:
+      GlocText: '*Fix the fuse dp'
+      NormalText: Fix the fuse dp
+    SubObjectives:
+    - SubObjectiveKey: FindTheFuseToFixLight
+      CompleteCount: 3
+      ObjectiveText:
+        GlocText: '*Find the fuse to fix light [count] /3'
+        NormalText: Find the fuse to fix light [count] /3
