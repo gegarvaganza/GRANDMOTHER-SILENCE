@@ -35,11 +35,16 @@ public class BrokenFlickerLight : MonoBehaviour
 
         audioSource = GetComponent<AudioSource>();
 
+        // START STATE (IMPORTANT)
+        flickerLight.enabled = false;
+        SetEmission(false);
+
         StartCoroutine(BreakLight());
     }
 
     IEnumerator BreakLight()
     {
+        // NORMAL LIGHT
         flickerLight.enabled = true;
         SetEmission(true);
 
@@ -52,6 +57,7 @@ public class BrokenFlickerLight : MonoBehaviour
 
         yield return new WaitForSeconds(normalLightTime);
 
+        // FLICKER SOUND
         audioSource.Stop();
 
         if (flickerSound != null)
@@ -61,6 +67,7 @@ public class BrokenFlickerLight : MonoBehaviour
             audioSource.Play();
         }
 
+        // FLICKER LOOP
         float timer = 0f;
 
         while (timer < flickerDuration)
@@ -78,6 +85,7 @@ public class BrokenFlickerLight : MonoBehaviour
             timer += Time.deltaTime;
         }
 
+        // LIGHT BREAKS
         flickerLight.enabled = false;
         SetEmission(false);
 
