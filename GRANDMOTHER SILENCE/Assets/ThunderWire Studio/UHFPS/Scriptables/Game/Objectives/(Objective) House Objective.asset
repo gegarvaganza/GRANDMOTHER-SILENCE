@@ -123,3 +123,13 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Find the fuse to fix light [count] /3'
         NormalText: Find the fuse to fix light [count] /3
+  - ObjectiveKey: FigureOutSomething
+    ObjectiveTitle:
+      GlocText: '*Figure out something'
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: ExploreTheHouseToEscape
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Explore the house to escape'
+        NormalText: 
