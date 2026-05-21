@@ -26,6 +26,20 @@ MonoBehaviour:
     - rid: 3282978113875607658
     - rid: 3282978113875607659
     - rid: 3282978113875607660
+  - DialogueAudio: {fileID: 8300000, guid: 917500fa41a30dc458d60a605e4f18ed, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: 
+        NormalText: 
+    Subtitles:
+    - rid: 3282978369755414532
+    - rid: 3282978369755414533
+    - rid: 3282978369755414534
+    - rid: 3282978369755414535
   references:
     version: 2
     RefIds:
@@ -55,4 +69,40 @@ MonoBehaviour:
         NarratorColor: {r: 1, g: 1, b: 1, a: 1}
         Text:
           GlocText: '*Mata aku .. tak betul ke ni?'
+          NormalText: 
+    - rid: 3282978369755414532
+      type: {class: DialogueAsset/DialogueSubtitle, ns: UHFPS.Scriptable, asm: Assembly-CSharp}
+      data:
+        Time: 8.136585
+        Narrator: Zul
+        NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+        Text:
+          GlocText: Mungkin .. aku penat sangat ni
+          NormalText: 
+    - rid: 3282978369755414533
+      type: {class: DialogueAsset/DialogueSubtitle, ns: UHFPS.Scriptable, asm: Assembly-CSharp}
+      data:
+        Time: 1.6544391
+        Narrator: Zul
+        NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+        Text:
+          GlocText: Mak pernah cakap yang
+          NormalText: 
+    - rid: 3282978369755414534
+      type: {class: DialogueAsset/DialogueSubtitle, ns: UHFPS.Scriptable, asm: Assembly-CSharp}
+      data:
+        Time: 3.6885855
+        Narrator: Zul
+        NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+        Text:
+          GlocText: Nenek tak pernah tinggal rumah ni
+          NormalText: 
+    - rid: 3282978369755414535
+      type: {class: DialogueAsset/DialogueSubtitle, ns: UHFPS.Scriptable, asm: Assembly-CSharp}
+      data:
+        Time: 6.183805
+        Narrator: Zul
+        NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+        Text:
+          GlocText: Mungkin
           NormalText: 
