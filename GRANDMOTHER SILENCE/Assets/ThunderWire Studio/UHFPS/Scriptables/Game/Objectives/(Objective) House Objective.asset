@@ -126,10 +126,20 @@ MonoBehaviour:
   - ObjectiveKey: FigureOutSomething
     ObjectiveTitle:
       GlocText: '*Figure out something'
-      NormalText: 
+      NormalText: Figure out something
     SubObjectives:
     - SubObjectiveKey: ExploreTheHouseToEscape
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Explore the house to escape'
+        NormalText: Explore the house to escape
+  - ObjectiveKey: FindKeris
+    ObjectiveTitle:
+      GlocText: '*Find Keris'
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: FigureOutTheKeris
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Figure out the keris'
         NormalText: 

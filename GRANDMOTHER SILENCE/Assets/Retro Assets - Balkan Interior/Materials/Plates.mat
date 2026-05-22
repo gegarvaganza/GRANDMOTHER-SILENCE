@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _USE_PIXEL_LIGHTING
   - _USE_POINT_FILTER_ON
   m_InvalidKeywords:
   - _EMISSION
@@ -71,8 +72,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints:
     - _ColorBitDepth: 64
-    - _ResolutionLimit: 64
-    - _SnapsPerUnit: 64
+    - _ResolutionLimit: 226
+    - _SnapsPerUnit: 433
     m_Floats:
     - _AffineTextureStrength: 1
     - _AlphaClip: 0
