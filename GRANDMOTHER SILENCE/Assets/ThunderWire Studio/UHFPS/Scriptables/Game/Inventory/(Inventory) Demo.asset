@@ -1580,7 +1580,7 @@ MonoBehaviour:
       Settings:
         isUsable: 0
         isStackable: 0
-        isExaminable: 0
+        isExaminable: 1
         isCombinable: 0
         isDroppable: 0
         isDiscardable: 0
@@ -1599,7 +1599,9 @@ MonoBehaviour:
       LocalizationSettings:
         titleKey:
           GlocText: item.title.keris
-          NormalText: item.title.keris
+          NormalText: Keris
         descriptionKey:
           GlocText: item.description.keris
-          NormalText: item.description.keris
+          NormalText: An old keris wrapped in worn cloth. The blade feels unusually
+            cold. There are strange carvings along the handle, almost as if it was
+            made for protection.
