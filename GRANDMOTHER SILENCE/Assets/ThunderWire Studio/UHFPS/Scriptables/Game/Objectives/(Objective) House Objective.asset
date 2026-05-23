@@ -133,13 +133,23 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Explore the house to escape'
         NormalText: Explore the house to escape
-  - ObjectiveKey: FindKeris
+  - ObjectiveKey: AWayToFightBack
     ObjectiveTitle:
-      GlocText: '*Find Keris'
+      GlocText: '*A way to fight back'
       NormalText: 
     SubObjectives:
-    - SubObjectiveKey: FigureOutTheKeris
+    - SubObjectiveKey: FindWhatWasHiddenBeneathTheStairs
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Figure out the keris'
+        GlocText: '*Find what was hidden beneath the stairs.'
+        NormalText: 
+  - ObjectiveKey: TheThreeLeftBehind
+    ObjectiveTitle:
+      GlocText: '*The three left behind'
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: FindTheStrangeDollsHiddenAroundTheHouse
+      CompleteCount: 3
+      ObjectiveText:
+        GlocText: '*Find the strange dolls hidden around the house [count /3'
         NormalText: 

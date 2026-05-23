@@ -1605,3 +1605,141 @@ MonoBehaviour:
           NormalText: An old keris wrapped in worn cloth. The blade feels unusually
             cold. There are strange carvings along the handle, almost as if it was
             made for protection.
+    - GUID: c54f1484f7c14d4084ad3d5c84d4e606
+      SectionGUID: 1acdbcee11694e5ba62df90f1e02b45b
+      Title: Normal Doll
+      Description: 'Just an ordinary doll.
+
+        
+
+        Still...
+
+        
+
+        it
+        feels like it''s staring back.
+
+'
+      Width: 1
+      Height: 2
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 55946dcfe1e2ac546917b7dd05f7bfbb, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          JsonData: 
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.normaldoll
+          NormalText: 
+        descriptionKey:
+          GlocText: item.description.normaldoll
+          NormalText: 
+    - GUID: 3c913f5efd714d9986bb64a113cf5e76
+      SectionGUID: 1acdbcee11694e5ba62df90f1e02b45b
+      Title: Good Doll
+      Description: 'A carefully preserved doll.
+
+        
+
+        Unlike the others,
+        this one feels strangely comforting.
+
+        
+
+        Almost as if someone
+        wanted it to protect the house.
+
+'
+      Width: 1
+      Height: 2
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 3a6b2f17c342c8d40949b91f72229563, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          JsonData: 
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.gooddoll
+          NormalText: 
+        descriptionKey:
+          GlocText: item.description.gooddoll
+          NormalText: 
+    - GUID: 54214c5feed94c0ea58ff133f90c4fbc
+      SectionGUID: 1acdbcee11694e5ba62df90f1e02b45b
+      Title: Ugly Doll
+      Description: 'Something feels wrong about this doll.  The longer you stare
+        at it...  the more uncomfortable you feel. '
+      Width: 1
+      Height: 2
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 6ff5838961a255a4bb475287acc3d4f0, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          JsonData: 
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.uglydoll
+          NormalText: 
+        descriptionKey:
+          GlocText: item.description.uglydoll
+          NormalText: 
