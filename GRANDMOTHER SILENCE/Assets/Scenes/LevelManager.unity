@@ -1198,6 +1198,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_TagString
       value: Door
@@ -16341,7 +16345,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.92307407, y: 2.0434453, z: 0}
@@ -22006,7 +22010,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.92307407, y: 2.0434453, z: 0.06970306}
@@ -30624,6 +30628,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_TagString
       value: Door
@@ -31068,6 +31076,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -46539,6 +46551,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2780510044221391591, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5039942266984104877, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3403829
@@ -47433,6 +47449,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -52769,6 +52789,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -68250,7 +68274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_TagString
@@ -90291,6 +90315,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2780510044221391591, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5039942266984104877, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3403829
@@ -90348,6 +90376,10 @@ PrefabInstance:
       value: PlayerDoor_DynamicRoom1
       objectReference: {fileID: 0}
     - target: {fileID: 5673031839260924183, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5941286296918898347, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -98708,6 +98740,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -128244,6 +128280,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2780510044221391591, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5039942266984104877, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2721934
@@ -144677,7 +144717,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.92307407, y: 2.0434453, z: 0}
@@ -164983,6 +165023,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -197247,7 +197291,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.92307407, y: 2.0434453, z: 0.06970306}
@@ -205563,6 +205607,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -218646,6 +218694,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
@@ -232385,6 +232437,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2780510044221391591, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5039942266984104877, guid: 0068907adffded8498d08d6b594cf7b1, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2721934
@@ -244141,6 +244197,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369060840476458266, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385908960325744096, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
