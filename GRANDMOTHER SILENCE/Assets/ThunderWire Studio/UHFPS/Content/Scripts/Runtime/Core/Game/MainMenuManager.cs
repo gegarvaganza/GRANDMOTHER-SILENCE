@@ -27,7 +27,7 @@ namespace UHFPS.Runtime
             if(NewGameRemoveSaves) yield return new WaitToTaskComplete(SaveGameManager.RemoveAllSaves());
 
             SaveGameManager.LoadSceneName = NewGameSceneName;
-            SceneManager.LoadScene(SaveGameManager.LMS);
+            SceneManager.LoadScene(NewGameSceneName);
         }
 
         public void QuitGame()
