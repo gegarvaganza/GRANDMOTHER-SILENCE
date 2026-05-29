@@ -1,21 +1,31 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UHFPS.Runtime;
+using UnityEngine.Playables;
 
 public class SceneLoader : MonoBehaviour
 {
-    public BackgroundFader backgroundFader;
+    public GameObject cutsceneObjects;
+    public PlayableDirector timeline;
+
     public string sceneName = "LevelManager";
+
+    private void Start()
+    {
+        cutsceneObjects.SetActive(false);
+    }
 
     public void LoadScene()
     {
-        StartCoroutine(FadeAndLoad());
+        cutsceneObjects.SetActive(true);
+
+        timeline.stopped += OnTimelineFinished;
+
+        timeline.Play();
     }
 
-    IEnumerator FadeAndLoad()
+    void OnTimelineFinished(PlayableDirector director)
     {
-        yield return backgroundFader.StartBackgroundFade(false);
+        timeline.stopped -= OnTimelineFinished;
 
         SceneManager.LoadScene(sceneName);
     }
