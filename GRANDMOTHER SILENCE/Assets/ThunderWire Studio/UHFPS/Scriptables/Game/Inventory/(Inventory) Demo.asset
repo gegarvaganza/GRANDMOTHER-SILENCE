@@ -1580,7 +1580,7 @@ MonoBehaviour:
       Settings:
         isUsable: 0
         isStackable: 0
-        isExaminable: 1
+        isExaminable: 0
         isCombinable: 0
         isDroppable: 0
         isDiscardable: 0
@@ -1610,14 +1610,14 @@ MonoBehaviour:
       Title: Normal Doll
       Description: 'Just an ordinary doll.
 
-        
+
 
         Still...
 
-        
 
-        it
-        feels like it''s staring back.
+
+        it feels
+        like it''s staring back.
 
 '
       Width: 1
@@ -1650,24 +1650,25 @@ MonoBehaviour:
       LocalizationSettings:
         titleKey:
           GlocText: item.title.normaldoll
-          NormalText: 
+          NormalText: Normal Doll
         descriptionKey:
           GlocText: item.description.normaldoll
-          NormalText: 
+          NormalText: 'Just an ordinary doll.  Still...  it feels like it''s staring
+            back. '
     - GUID: 3c913f5efd714d9986bb64a113cf5e76
       SectionGUID: 1acdbcee11694e5ba62df90f1e02b45b
       Title: Good Doll
       Description: 'A carefully preserved doll.
 
-        
 
-        Unlike the others,
-        this one feels strangely comforting.
 
-        
+        Unlike the others, this
+        one feels strangely comforting.
 
-        Almost as if someone
-        wanted it to protect the house.
+
+
+        Almost as if someone wanted it
+        to protect the house.
 
 '
       Width: 1
@@ -1700,10 +1701,12 @@ MonoBehaviour:
       LocalizationSettings:
         titleKey:
           GlocText: item.title.gooddoll
-          NormalText: 
+          NormalText: Good Doll
         descriptionKey:
           GlocText: item.description.gooddoll
-          NormalText: 
+          NormalText: 'A carefully preserved doll.  Unlike the others, this one feels
+            strangely comforting.  Almost as if someone wanted it to protect the
+            house. '
     - GUID: 54214c5feed94c0ea58ff133f90c4fbc
       SectionGUID: 1acdbcee11694e5ba62df90f1e02b45b
       Title: Ugly Doll
@@ -1739,7 +1742,8 @@ MonoBehaviour:
       LocalizationSettings:
         titleKey:
           GlocText: item.title.uglydoll
-          NormalText: 
+          NormalText: Ugly Doll
         descriptionKey:
           GlocText: item.description.uglydoll
-          NormalText: 
+          NormalText: 'Something feels wrong about this doll.  The longer you stare
+            at it...  the more uncomfortable you feel. '

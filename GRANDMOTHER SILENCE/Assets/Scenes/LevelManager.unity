@@ -70819,7 +70819,7 @@ MonoBehaviour:
   idleClip: {fileID: 8300000, guid: 50c4664ea770dcd42ae8c60d009559e1, type: 3}
   patrolClip: {fileID: 8300000, guid: 4082b67b49c6bee45805e242376adccd, type: 3}
   walkClip: {fileID: 8300000, guid: 940570a9de61ea8459449bebfc7ea6cb, type: 3}
-  runClip: {fileID: 0}
+  runClip: {fileID: 8300000, guid: 8ef5537b6df4dd048a0130c61c6cccfc, type: 3}
   agent: {fileID: 561142671}
   currentState: 0
 --- !u!82 &561142674
@@ -174813,13 +174813,13 @@ GameObject:
   - component: {fileID: 1384754445}
   - component: {fileID: 1384754444}
   - component: {fileID: 1384754443}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: TriggerSeeGhostDance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1384754442
 Transform:
   m_ObjectHideFlags: 0
@@ -186844,6 +186844,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 895978165535170977, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1474264279}
+    - targetCorrespondingSourceObject: {fileID: 895978165535170977, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474264281}
   m_SourcePrefab: {fileID: 100100000, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
 --- !u!1 &1474264275 stripped
 GameObject:
@@ -186899,6 +186902,103 @@ MonoBehaviour:
   flickerDuration: 0.01
   minOffTime: 0.05
   maxOffTime: 0.2
+--- !u!82 &1474264281
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474264275}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1477115217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1989485550670715467, guid: 0184fee55bb58a44bba873cafe04a94e, type: 3}
@@ -196287,7 +196387,7 @@ MonoBehaviour:
   - {fileID: 1828217121}
   - {fileID: 43694595}
   - {fileID: 26451732}
-  UnlockCode: 1234
+  UnlockCode: 5732
   UnlockKeyItem:
     m_GUID: 
     m_Item:
@@ -229134,7 +229234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.012
+      value: -19.9994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -229142,7 +229242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.63
+      value: -8.5827
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -247468,7 +247568,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 0
+        m_CallState: 2
       - m_Target: {fileID: 171559895}
         m_TargetAssemblyTypeName: UHFPS.Runtime.DynamicObject, Assembly-CSharp
         m_MethodName: SetLockedStatus
@@ -271049,6 +271149,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 895978165535170977, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2134365639}
+    - targetCorrespondingSourceObject: {fileID: 895978165535170977, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134365643}
   m_SourcePrefab: {fileID: 100100000, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
 --- !u!1 &2134365635 stripped
 GameObject:
@@ -271104,6 +271207,103 @@ Light:
   m_CorrespondingSourceObject: {fileID: 652916137923989677, guid: c69b44597134ec641a6fcd16e6e90a85, type: 3}
   m_PrefabInstance: {fileID: 2134365634}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &2134365643
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134365635}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &2134672815 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7860395498815269461, guid: 654dd02befd841e4ba31f254ee518c69, type: 3}
@@ -347456,252 +347656,308 @@ MonoBehaviour:
   SavingIcon: {fileID: 7075489858503031902}
   Debugging: 1
   worldSaveables:
-  - Token: JumpscareTrigger.7686b7de76b7a414ebca4a7a6aee92b5
-    Instance: {fileID: 218829457}
-  - Token: DialogueTrigger.42eb356925e45d743a8a4061964db151
-    Instance: {fileID: 86295373}
-  - Token: TriggerEnterEvents.66733297bf761a543ba419844aebf4e3
-    Instance: {fileID: 1673047166}
   - Token: InteractableItem.f58749310d97c744eb926f0a6a797fbc
     Instance: {fileID: 213575891}
-  - Token: DynamicObject.1226396f51cf0a946998a1efd294e729
-    Instance: {fileID: 488715394}
-  - Token: DynamicObject.62e924a1f4c10eb4ab0030b06a853b5a
-    Instance: {fileID: 1107752516}
-  - Token: DynamicObject.fab79cc152a8b1247a0f270490f07d3b
-    Instance: {fileID: 1288323937}
-  - Token: InteractableItem.17e8c4395f374184bbada13f9d464b33
-    Instance: {fileID: 1147475717}
-  - Token: TriggerEnterEvents.6871a06b3df70224c8ea661c508e48fc
-    Instance: {fileID: 596675395}
-  - Token: DynamicObject.981281b03c3eec741973fe27222190ab
-    Instance: {fileID: 1283854540}
   - Token: ObjectiveTrigger.a90ebaf0ccbcf6b4eb974dec13a677c6
     Instance: {fileID: 1518939828}
-  - Token: TriggerEnterEvents.b7c4f514c4d340b4dba8ab269af02c34
-    Instance: {fileID: 157586358}
-  - Token: DynamicObject.24d7e438ea0d6784c8b1f7337c462e0d
-    Instance: {fileID: 1236042294}
-  - Token: DialogueTrigger.6b87f0d671eebb24b9e164188d195106
-    Instance: {fileID: 1108503002}
-  - Token: DynamicObject.a6126c3846f5428498891d5d2dcda378
-    Instance: {fileID: 21684907}
-  - Token: TriggerEnterEvents.ca55ee9b0fc12554d9c4b30367711ae6
-    Instance: {fileID: 1067710817}
-  - Token: DialogueTrigger.acf3376fcf1fe7c42a12b383efd96ab6
-    Instance: {fileID: 383909259}
-  - Token: ObjectiveTrigger.00f6262428a3a0147965e865539f8ec2
-    Instance: {fileID: 1057665873}
-  - Token: ObjectiveTrigger.f6a80972918d3c04688abc1ddb56e731
-    Instance: {fileID: 102241369}
-  - Token: TriggerEnterEvents.9e82748c26a489147a080ee9797d6615
-    Instance: {fileID: 491862113}
-  - Token: TriggerEnterEvents.9950ea0fb32659f4f8c04070f558649e
-    Instance: {fileID: 199916473}
-  - Token: DynamicObject.4f0a9a1217cc3e44dba06b2f39f8de96
-    Instance: {fileID: 1493522032}
-  - Token: InteractableItem.d9bf0ab78e76c714d953795253221501
-    Instance: {fileID: 1059546943}
-  - Token: JumpscareTrigger.6047d34f0e2a3474aaa962f12759e84e
-    Instance: {fileID: 2076655387}
-  - Token: DynamicObject.f21a3b3c8bd861f4697047cc3a17065a
-    Instance: {fileID: 1268283908}
-  - Token: DynamicObject.744dfb8493ea3ce459a22e48c7032a69
-    Instance: {fileID: 2026322756}
-  - Token: DynamicObject.7a817bff04a166d4e8e3f7e59c7506de
-    Instance: {fileID: 1194234274}
-  - Token: DialogueTrigger.58adbdf0f64193244bdcbb263f3d173a
-    Instance: {fileID: 460872087}
-  - Token: ObjectiveTrigger.acf9998e7bb254b41a24f51fa8e9d0f8
-    Instance: {fileID: 1599228553}
-  - Token: DynamicObject.2359f26c36991934e8882fc552237ed5
-    Instance: {fileID: 1307041709}
-  - Token: DynamicObject.89c9440533df864418eb5a0beefe8d39
-    Instance: {fileID: 1581668966}
-  - Token: ObjectiveTrigger.fde136cf62ec2ac4493c92204053862c
-    Instance: {fileID: 742918217}
-  - Token: InteractableItem.8b977472f6c06104687fdab4bceeafb2
-    Instance: {fileID: 1379976901}
-  - Token: JumpscareTrigger.84dbc59bb822c4d4eabde05e6b1798e5
-    Instance: {fileID: 520275828}
-  - Token: InteractableItem.969da8f6599673d4cb45f45150ab736a
-    Instance: {fileID: 498048537}
-  - Token: DialogueTrigger.b2efd46b8539f0742bf8f5be97ff475d
-    Instance: {fileID: 943849151}
-  - Token: DynamicObject.38f485c1d0621314cbe1d10dd6c9a528
-    Instance: {fileID: 255839385}
-  - Token: DynamicObject.ee7f6476eb105cf4aa65b361ee593855
-    Instance: {fileID: 98132113}
-  - Token: DynamicObject.69f973bbf40aaf04fb130dfb9c61759a
-    Instance: {fileID: 143003947}
-  - Token: DialogueTrigger.6e43e9464e4fac64095c7b4bb861eb8b
-    Instance: {fileID: 1575268742}
-  - Token: DynamicObject.24e848eb2363fe040931a6cc3da07b39
-    Instance: {fileID: 181694453}
-  - Token: JumpscareTrigger.4bf122c5003f3744d9f38e15ef91f00b
-    Instance: {fileID: 1106077166}
-  - Token: DynamicObject.16584e8539f3f47459fa33501054f09e
-    Instance: {fileID: 1880412626}
-  - Token: DynamicObject.721605a0a3a991c4c832afaa975312ae
-    Instance: {fileID: 321111247}
-  - Token: DynamicObject.e06ff48a4f88b134c8d981eb38502301
-    Instance: {fileID: 171559895}
-  - Token: TriggerEnterEvents.70f9c7b0e222cbc47b1198986be80c05
-    Instance: {fileID: 699268815}
-  - Token: DynamicObject.8931a28691be3224cbfd956fd75dfa01
-    Instance: {fileID: 1917008620}
-  - Token: ObjectiveTrigger.62a1f84f759841d41bbeb2f0dd20434b
-    Instance: {fileID: 1703516239}
-  - Token: TriggerEnterEvents.06ac6d27f84a8ca4582401873e5e6915
-    Instance: {fileID: 1388712245}
-  - Token: FuseboxPuzzle.0a2cab208777f7443981d44a692a82e4
-    Instance: {fileID: 1951654689}
-  - Token: DynamicObject.ba94ceba8d3a77b46b18cafdbee7d22c
-    Instance: {fileID: 1699491884}
-  - Token: DynamicObject.e935ef8dfae5fdf4cacf5c26695553f4
-    Instance: {fileID: 883214343}
-  - Token: InteractableItem.85eab4a7153412b46ab33a59dba64dd1
-    Instance: {fileID: 570204335}
-  - Token: ObjectiveTrigger.e1e22b0ed5d23044d86d9993757a5cbe
-    Instance: {fileID: 1404910543}
-  - Token: ObjectiveTrigger.6ff655572e8f06e458c5e674eb65c0da
-    Instance: {fileID: 102241368}
-  - Token: ObjectiveTrigger.dca419b3a46d8d94aa64532b9888bedf
-    Instance: {fileID: 1703516243}
-  - Token: DynamicObject.5ea9ab0f81b2644409618ce1dccafeb4
-    Instance: {fileID: 1624119433}
-  - Token: InteractableItem.63b0f7f54e45e544e8f7198e43c9b63a
-    Instance: {fileID: 1526478196}
-  - Token: DynamicObject.531715785503da145b5543d86ef75d81
-    Instance: {fileID: 52645090}
-  - Token: DynamicObject.a9196675fd36cb24aa3be2a04750692f
-    Instance: {fileID: 1686790227}
-  - Token: DynamicObject.b598aa82cdc1d074d98b62d078d61989
-    Instance: {fileID: 141484306}
-  - Token: DialogueTrigger.beb965d18f974db45a70d4d07a9a0dcb
-    Instance: {fileID: 793499763}
-  - Token: InteractableItem.60b5480d7aff31542813413a782ae4a8
-    Instance: {fileID: 38010696}
-  - Token: ObjectiveTrigger.31a497c6669a83f4da5de3d022998f33
-    Instance: {fileID: 1028490577}
-  - Token: DynamicObject.e1630607c66b3184ab1b2dc8ee945647
-    Instance: {fileID: 39508509}
-  - Token: DynamicObject.32b7dc5dc15a53d4ab38605f220930fa
-    Instance: {fileID: 1140527441}
-  - Token: ObjectiveTrigger.740e8cef37d925e489639534ca818740
-    Instance: {fileID: 1609815643}
-  - Token: ObjectiveTrigger.b31017f16b65e7247b71502fdfb5efe3
-    Instance: {fileID: 1147475721}
-  - Token: DynamicObject.924fc48cb70265e4e858bd91fca67086
-    Instance: {fileID: 1625691518}
-  - Token: JumpscareTrigger.6d5298bd52ef4964b96ad4d1d791e314
-    Instance: {fileID: 111308363}
-  - Token: DynamicObject.15bd137890b5cba4f978a631244d121d
-    Instance: {fileID: 465419450}
-  - Token: DynamicObject.7f5f9b400c207594cbe4e580aded5fd1
-    Instance: {fileID: 2138799395}
-  - Token: TriggerEnterEvents.c0287bc72a7d71d49a27d1a81d9d7a1a
-    Instance: {fileID: 1313363078}
-  - Token: DynamicObject.b5d9904b6fc29a748b9570cf44c3c7ab
-    Instance: {fileID: 217972123}
-  - Token: InteractableItem.1ec7f1d07d742524ba26cea32b8dab49
-    Instance: {fileID: 29726036}
-  - Token: DynamicObject.a099db6f93b9a384fbb6901eb5ce8989
-    Instance: {fileID: 1954748232}
-  - Token: JumpscareTrigger.2408e0bd44782964c9feea2dfbe08f89
-    Instance: {fileID: 1579179421}
-  - Token: ObjectiveTrigger.b3c3bb5565a87d544954100bd61e0c79
-    Instance: {fileID: 1057665880}
-  - Token: DynamicObject.6c084b2ff03f68c408c94f21bbb89461
-    Instance: {fileID: 1227157390}
-  - Token: ObjectiveTrigger.d30449694782b1e4bb43c37fec95dc6c
-    Instance: {fileID: 1880699510}
-  - Token: DynamicObject.4fdf7d76d835a444d8caa9855e4efdb1
-    Instance: {fileID: 1787679685}
-  - Token: DynamicObject.8ebf6d30b6dc3284e96cd4f83808e8d5
-    Instance: {fileID: 383163827}
-  - Token: ObjectiveTrigger.57d74d32322767e48ba509dd3e538b6e
-    Instance: {fileID: 1028490576}
-  - Token: JumpscareTrigger.7909eabde4d47314a84a23c7df06902c
-    Instance: {fileID: 383909260}
-  - Token: InteractableItem.357817fb23b3a5343b814a19249c2c44
-    Instance: {fileID: 1057665872}
-  - Token: DynamicObject.e192c2b031e9ac1429a9eb596c9de6f2
-    Instance: {fileID: 993118303}
-  - Token: ObjectiveTrigger.f7ee743522b36174a9a97f7ad6969506
-    Instance: {fileID: 498048542}
-  - Token: HintTrigger.da9121a662085b149a8d02d353bc14d4
-    Instance: {fileID: 829855387}
-  - Token: TriggerEnterEvents.26dec42d0f8e38840b8a143817d97abf
-    Instance: {fileID: 1174692231}
-  - Token: DynamicObject.4841e02084dff09419470fa9b3b8a501
-    Instance: {fileID: 1628812723}
-  - Token: DynamicObject.0fc21d8f18421a64ea553d54495add5d
-    Instance: {fileID: 669185529}
-  - Token: InteractableItem.d25307de95039e048932551eef2b2c09
-    Instance: {fileID: 1440622911}
-  - Token: InteractableItem.0419983efb56e524a882824a38e21570
-    Instance: {fileID: 1314041351}
-  - Token: InteractableItem.606ea60c611268d44bd2d2b812ce25ef
-    Instance: {fileID: 1880699506}
-  - Token: TriggerEnterEvents.6e014a5d5a58b5441a13847d7821306f
-    Instance: {fileID: 1862224844}
-  - Token: InteractableItem.73c16ea5ceb49f044acb58c406092c35
-    Instance: {fileID: 1599228545}
-  - Token: JumpscareTrigger.17aab1c5e60238c4da7fbc806acefa28
-    Instance: {fileID: 643552092}
-  - Token: InteractableItem.3ad90c3a02031d9428abd0e923e4403b
-    Instance: {fileID: 1509935105}
-  - Token: ObjectiveTrigger.19b728617578559409ac6d279340d14f
-    Instance: {fileID: 1526478202}
-  - Token: ObjectiveTrigger.5fb7aa9745dab6d4299cbc0ec1e329fa
-    Instance: {fileID: 213575895}
-  - Token: DynamicObject.2b75b5c77f556fa44b3dbf96c51d98b3
-    Instance: {fileID: 2108544555}
-  - Token: DynamicObject.17d344a1e2743de4b9e66b77d5792e19
-    Instance: {fileID: 1115674416}
-  - Token: TriggerEnterEvents.f43225687ad94c64b8009628e28002e3
-    Instance: {fileID: 341566984}
-  - Token: DynamicObject.08c97e208c9e73743b4477d032596c89
-    Instance: {fileID: 1033175577}
-  - Token: ObjectiveTrigger.da30b6794e108b84188eecf41afe4fff
-    Instance: {fileID: 742918213}
-  - Token: ObjectiveTrigger.b787184b434456c4b8b00f9fd7024a93
-    Instance: {fileID: 38010700}
-  - Token: TriggerEnterEvents.b7d91d51c0b820547a60e51284956a7f
-    Instance: {fileID: 625820328}
-  - Token: DynamicObject.bbc485514f2ce7c47996559cb21069c1
-    Instance: {fileID: 2079324965}
-  - Token: InteractableItem.5c987074eabb4854c856533ea8da5482
-    Instance: {fileID: 2111616337}
-  - Token: ObjectiveTrigger.6542bdbd68d2b44438572adcafc602d8
-    Instance: {fileID: 1609815644}
   - Token: DynamicObject.316a9ea9938ced24d8b2b7b88d94bb35
     Instance: {fileID: 816377063}
+  - Token: DynamicObject.32b7dc5dc15a53d4ab38605f220930fa
+    Instance: {fileID: 1140527441}
+  - Token: JumpscareTrigger.c5ff47dabe40d63498cd9addd875f052
+    Instance: {fileID: 1384754445}
+  - Token: DynamicObject.5ea9ab0f81b2644409618ce1dccafeb4
+    Instance: {fileID: 1624119433}
   - Token: InteractableItem.dfd5f44c193a6d14d89b6297ce14c403
     Instance: {fileID: 471706817}
-  - Token: JumpscareTrigger.f985578d95ca0094ba0ff08291f205ff
-    Instance: {fileID: 540945922}
   - Token: DynamicObject.efec9fa9825024e41ab890be5851a14e
     Instance: {fileID: 447732476}
+  - Token: DynamicObject.0fc21d8f18421a64ea553d54495add5d
+    Instance: {fileID: 669185529}
+  - Token: TriggerEnterEvents.c6ef1bf2ef6798e4e9400689aa22a3b6
+    Instance: {fileID: 427240186}
+  - Token: InteractableItem.60b5480d7aff31542813413a782ae4a8
+    Instance: {fileID: 38010696}
+  - Token: HintTrigger.f29dd45d04d2e8545971ba679ffb8823
+    Instance: {fileID: 1384754443}
+  - Token: PadlockPuzzle.783934df39df1584caf5351f9af459d9
+    Instance: {fileID: 1554525608}
+  - Token: TriggerEnterEvents.fd231ffc3b0d89c46b275e6e3cea6739
+    Instance: {fileID: 983114222}
+  - Token: DynamicObject.2359f26c36991934e8882fc552237ed5
+    Instance: {fileID: 1307041709}
+  - Token: ObjectiveTrigger.31a497c6669a83f4da5de3d022998f33
+    Instance: {fileID: 1028490577}
   - Token: InteractableItem.7a5dc572dc5a15f4dba56a3ebfde7c78
     Instance: {fileID: 1703516235}
-  - Token: ObjectiveTrigger.ddab915dfb528324f85cb7495f51ba8b
-    Instance: {fileID: 712057627}
-  - Token: HintTrigger.375b81ac3b8f9204881a9975559cc3b0
-    Instance: {fileID: 1444566641}
-  - Token: DynamicObject.c70b57a887d97344ca6d25429ccd4c0b
-    Instance: {fileID: 790653023}
-  - Token: DynamicObject.b12aabfee898b0f49979a95f033048d9
-    Instance: {fileID: 1459076879}
-  - Token: ObjectiveTrigger.9f1637148f0fb8b4ea0b41f081fd236b
-    Instance: {fileID: 1601227787}
+  - Token: DynamicObject.744dfb8493ea3ce459a22e48c7032a69
+    Instance: {fileID: 2026322756}
+  - Token: ObjectiveTrigger.740e8cef37d925e489639534ca818740
+    Instance: {fileID: 1609815643}
+  - Token: InteractableItem.455ee97c14216b541988e37e7ace47c0
+    Instance: {fileID: 1826259180}
+  - Token: InteractableItem.85eab4a7153412b46ab33a59dba64dd1
+    Instance: {fileID: 570204335}
+  - Token: TriggerEnterEvents.66733297bf761a543ba419844aebf4e3
+    Instance: {fileID: 1673047166}
+  - Token: InteractableItem.0419983efb56e524a882824a38e21570
+    Instance: {fileID: 1314041351}
+  - Token: DialogueTrigger.b2efd46b8539f0742bf8f5be97ff475d
+    Instance: {fileID: 943849151}
+  - Token: JumpscareTrigger.7686b7de76b7a414ebca4a7a6aee92b5
+    Instance: {fileID: 218829457}
+  - Token: ObjectiveTrigger.da30b6794e108b84188eecf41afe4fff
+    Instance: {fileID: 742918213}
+  - Token: TriggerEnterEvents.f92ce0cfe95d36e438d6936fd7c32853
+    Instance: {fileID: 1329490989}
+  - Token: JumpscareTrigger.17aab1c5e60238c4da7fbc806acefa28
+    Instance: {fileID: 643552092}
+  - Token: DynamicObject.b5d9904b6fc29a748b9570cf44c3c7ab
+    Instance: {fileID: 217972123}
+  - Token: DynamicObject.62e924a1f4c10eb4ab0030b06a853b5a
+    Instance: {fileID: 1107752516}
+  - Token: DialogueTrigger.beb965d18f974db45a70d4d07a9a0dcb
+    Instance: {fileID: 793499763}
+  - Token: TriggerEnterEvents.6e014a5d5a58b5441a13847d7821306f
+    Instance: {fileID: 1862224844}
+  - Token: DynamicObject.7f5f9b400c207594cbe4e580aded5fd1
+    Instance: {fileID: 2138799395}
+  - Token: DynamicObject.15bd137890b5cba4f978a631244d121d
+    Instance: {fileID: 465419450}
+  - Token: ObjectiveTrigger.448ac84e8da248f4bb2d82732d57dba7
+    Instance: {fileID: 1826259181}
+  - Token: DynamicObject.08c97e208c9e73743b4477d032596c89
+    Instance: {fileID: 1033175577}
+  - Token: TriggerEnterEvents.166999d1c1b1f494b84024d5835f13e1
+    Instance: {fileID: 1453433621}
+  - Token: TriggerEnterEvents.06ac6d27f84a8ca4582401873e5e6915
+    Instance: {fileID: 1388712245}
+  - Token: DynamicObject.e192c2b031e9ac1429a9eb596c9de6f2
+    Instance: {fileID: 993118303}
+  - Token: InteractableItem.63b0f7f54e45e544e8f7198e43c9b63a
+    Instance: {fileID: 1526478196}
+  - Token: DynamicObject.f7fd7954c88f21249b90da5f2add7f2e
+    Instance: {fileID: 2016023922}
+  - Token: InteractableItem.606ea60c611268d44bd2d2b812ce25ef
+    Instance: {fileID: 1880699506}
+  - Token: DynamicObject.8931a28691be3224cbfd956fd75dfa01
+    Instance: {fileID: 1917008620}
+  - Token: ObjectiveTrigger.45ec14db8af58974d923508ec53da808
+    Instance: {fileID: 1526478203}
+  - Token: ObjectiveTrigger.ceeb801e79c670844a5e5789f81aca30
+    Instance: {fileID: 1967610436}
+  - Token: DynamicObject.f21a3b3c8bd861f4697047cc3a17065a
+    Instance: {fileID: 1268283908}
+  - Token: ObjectiveTrigger.19b728617578559409ac6d279340d14f
+    Instance: {fileID: 1526478202}
+  - Token: TriggerEnterEvents.a45887ff19fef574dabde37687e55da0
+    Instance: {fileID: 529178964}
+  - Token: ObjectiveTrigger.f7ee743522b36174a9a97f7ad6969506
+    Instance: {fileID: 498048542}
+  - Token: FuseboxPuzzle.0a2cab208777f7443981d44a692a82e4
+    Instance: {fileID: 1951654689}
+  - Token: TriggerEnterEvents.70f9c7b0e222cbc47b1198986be80c05
+    Instance: {fileID: 699268815}
+  - Token: DynamicObject.89c9440533df864418eb5a0beefe8d39
+    Instance: {fileID: 1581668966}
+  - Token: ObjectiveTrigger.acf9998e7bb254b41a24f51fa8e9d0f8
+    Instance: {fileID: 1599228553}
+  - Token: DynamicObject.bbc485514f2ce7c47996559cb21069c1
+    Instance: {fileID: 2079324965}
+  - Token: DynamicObject.fab79cc152a8b1247a0f270490f07d3b
+    Instance: {fileID: 1288323937}
   - Token: TriggerEnterEvents.1a7a27cac6da8cc49b94a18d55318fb5
     Instance: {fileID: 1416987380}
   - Token: DynamicObject.22fe29670b991a641a51a304ec0c03e4
     Instance: {fileID: 1626140868}
+  - Token: InteractableItem.d25307de95039e048932551eef2b2c09
+    Instance: {fileID: 1440622911}
+  - Token: InteractableItem.8b977472f6c06104687fdab4bceeafb2
+    Instance: {fileID: 1379976901}
+  - Token: DynamicObject.e06ff48a4f88b134c8d981eb38502301
+    Instance: {fileID: 171559895}
+  - Token: DialogueTrigger.acf3376fcf1fe7c42a12b383efd96ab6
+    Instance: {fileID: 383909259}
+  - Token: TriggerEnterEvents.84c88eb844f680443ba0b99ce47de508
+    Instance: {fileID: 1223510619}
+  - Token: DynamicObject.ba94ceba8d3a77b46b18cafdbee7d22c
+    Instance: {fileID: 1699491884}
+  - Token: InteractableItem.d9bf0ab78e76c714d953795253221501
+    Instance: {fileID: 1059546943}
+  - Token: TriggerEnterEvents.b7c4f514c4d340b4dba8ab269af02c34
+    Instance: {fileID: 157586358}
+  - Token: DynamicObject.a6126c3846f5428498891d5d2dcda378
+    Instance: {fileID: 21684907}
+  - Token: DynamicObject.4fdf7d76d835a444d8caa9855e4efdb1
+    Instance: {fileID: 1787679685}
+  - Token: DynamicObject.2b75b5c77f556fa44b3dbf96c51d98b3
+    Instance: {fileID: 2108544555}
+  - Token: InteractableItem.f37caed5dd46c3d46a86ddd4f3ff4c3e
+    Instance: {fileID: 1945587639}
+  - Token: DynamicObject.b12aabfee898b0f49979a95f033048d9
+    Instance: {fileID: 1459076879}
+  - Token: JumpscareTrigger.2408e0bd44782964c9feea2dfbe08f89
+    Instance: {fileID: 1579179421}
+  - Token: ObjectiveTrigger.fde136cf62ec2ac4493c92204053862c
+    Instance: {fileID: 742918217}
+  - Token: ObjectiveTrigger.6542bdbd68d2b44438572adcafc602d8
+    Instance: {fileID: 1609815644}
+  - Token: InteractableItem.73c16ea5ceb49f044acb58c406092c35
+    Instance: {fileID: 1599228545}
+  - Token: JumpscareTrigger.6d5298bd52ef4964b96ad4d1d791e314
+    Instance: {fileID: 111308363}
+  - Token: TriggerEnterEvents.72cd005d311b400428259b5463ff69d2
+    Instance: {fileID: 356560326}
+  - Token: ObjectiveTrigger.b3c3bb5565a87d544954100bd61e0c79
+    Instance: {fileID: 1057665880}
+  - Token: ObjectiveTrigger.62a1f84f759841d41bbeb2f0dd20434b
+    Instance: {fileID: 1703516239}
+  - Token: TriggerEnterEvents.f43225687ad94c64b8009628e28002e3
+    Instance: {fileID: 341566984}
+  - Token: JumpscareTrigger.f985578d95ca0094ba0ff08291f205ff
+    Instance: {fileID: 540945922}
+  - Token: ObjectiveTrigger.9f1637148f0fb8b4ea0b41f081fd236b
+    Instance: {fileID: 1601227787}
+  - Token: DynamicObject.a9196675fd36cb24aa3be2a04750692f
+    Instance: {fileID: 1686790227}
+  - Token: ObjectiveTrigger.5fb7aa9745dab6d4299cbc0ec1e329fa
+    Instance: {fileID: 213575895}
+  - Token: DynamicObject.17d344a1e2743de4b9e66b77d5792e19
+    Instance: {fileID: 1115674416}
+  - Token: DynamicObject.6c084b2ff03f68c408c94f21bbb89461
+    Instance: {fileID: 1227157390}
+  - Token: TriggerEnterEvents.a3d54e656efb91c4ca640ca5f6c3b6db
+    Instance: {fileID: 852891118}
+  - Token: ObjectiveTrigger.37ee20b67f19618408734c1c4b603f2f
+    Instance: {fileID: 1409872431}
+  - Token: TriggerEnterEvents.526af20426370e94c8f39b8f36834c75
+    Instance: {fileID: 231436936}
+  - Token: TriggerEnterEvents.9e82748c26a489147a080ee9797d6615
+    Instance: {fileID: 491862113}
+  - Token: DynamicObject.721605a0a3a991c4c832afaa975312ae
+    Instance: {fileID: 321111247}
+  - Token: TriggerEnterEvents.ca55ee9b0fc12554d9c4b30367711ae6
+    Instance: {fileID: 1067710817}
+  - Token: InteractableItem.17e8c4395f374184bbada13f9d464b33
+    Instance: {fileID: 1147475717}
+  - Token: JumpscareTrigger.6047d34f0e2a3474aaa962f12759e84e
+    Instance: {fileID: 2076655387}
+  - Token: DynamicObject.1226396f51cf0a946998a1efd294e729
+    Instance: {fileID: 488715394}
+  - Token: TriggerEnterEvents.b7d91d51c0b820547a60e51284956a7f
+    Instance: {fileID: 625820328}
+  - Token: HintTrigger.da9121a662085b149a8d02d353bc14d4
+    Instance: {fileID: 829855387}
+  - Token: JumpscareTrigger.7909eabde4d47314a84a23c7df06902c
+    Instance: {fileID: 383909260}
+  - Token: DynamicObject.69f973bbf40aaf04fb130dfb9c61759a
+    Instance: {fileID: 143003947}
+  - Token: DynamicObject.981281b03c3eec741973fe27222190ab
+    Instance: {fileID: 1283854540}
+  - Token: ObjectiveTrigger.dca419b3a46d8d94aa64532b9888bedf
+    Instance: {fileID: 1703516243}
+  - Token: DynamicObject.7a817bff04a166d4e8e3f7e59c7506de
+    Instance: {fileID: 1194234274}
+  - Token: DynamicObject.16584e8539f3f47459fa33501054f09e
+    Instance: {fileID: 1880412626}
+  - Token: DynamicObject.4f0a9a1217cc3e44dba06b2f39f8de96
+    Instance: {fileID: 1493522032}
+  - Token: DynamicObject.4841e02084dff09419470fa9b3b8a501
+    Instance: {fileID: 1628812723}
+  - Token: InteractableItem.5c987074eabb4854c856533ea8da5482
+    Instance: {fileID: 2111616337}
+  - Token: DynamicObject.531715785503da145b5543d86ef75d81
+    Instance: {fileID: 52645090}
+  - Token: DynamicObject.a099db6f93b9a384fbb6901eb5ce8989
+    Instance: {fileID: 1954748232}
+  - Token: DynamicObject.ee7f6476eb105cf4aa65b361ee593855
+    Instance: {fileID: 98132113}
+  - Token: DynamicObject.c70b57a887d97344ca6d25429ccd4c0b
+    Instance: {fileID: 790653023}
+  - Token: JumpscareTrigger.4bf122c5003f3744d9f38e15ef91f00b
+    Instance: {fileID: 1106077166}
+  - Token: InteractableItem.3ad90c3a02031d9428abd0e923e4403b
+    Instance: {fileID: 1509935105}
+  - Token: ObjectiveTrigger.ddab915dfb528324f85cb7495f51ba8b
+    Instance: {fileID: 712057627}
+  - Token: InteractableItem.dd418fb80c163064b93b10a4df80a781
+    Instance: {fileID: 1409872430}
+  - Token: ObjectiveTrigger.6ff655572e8f06e458c5e674eb65c0da
+    Instance: {fileID: 102241368}
+  - Token: DialogueTrigger.6b87f0d671eebb24b9e164188d195106
+    Instance: {fileID: 1108503002}
+  - Token: TriggerEnterEvents.26dec42d0f8e38840b8a143817d97abf
+    Instance: {fileID: 1174692231}
   - Token: DynamicObject.7f2983110f4abc247a54f176c532e92d
     Instance: {fileID: 96362412}
+  - Token: ObjectiveTrigger.b31017f16b65e7247b71502fdfb5efe3
+    Instance: {fileID: 1147475721}
+  - Token: ObjectiveTrigger.3d273d8eb91ca5748b6d2922b11d86d8
+    Instance: {fileID: 5499859}
+  - Token: JumpscareTrigger.84dbc59bb822c4d4eabde05e6b1798e5
+    Instance: {fileID: 520275828}
+  - Token: InteractableItem.357817fb23b3a5343b814a19249c2c44
+    Instance: {fileID: 1057665872}
+  - Token: DynamicObject.e935ef8dfae5fdf4cacf5c26695553f4
+    Instance: {fileID: 883214343}
+  - Token: ObjectiveTrigger.89378827ccb4b37489b28452ab833906
+    Instance: {fileID: 1826259185}
+  - Token: ObjectiveTrigger.00f6262428a3a0147965e865539f8ec2
+    Instance: {fileID: 1057665873}
+  - Token: TriggerEnterEvents.7bf514eeb8cda31449b5fcf202407e9d
+    Instance: {fileID: 1429303294}
+  - Token: TriggerEnterEvents.790404a2b5159714d9b6d3a38025bb10
+    Instance: {fileID: 456395662}
+  - Token: ObjectiveTrigger.d30449694782b1e4bb43c37fec95dc6c
+    Instance: {fileID: 1880699510}
+  - Token: DynamicObject.e1630607c66b3184ab1b2dc8ee945647
+    Instance: {fileID: 39508509}
+  - Token: ObjectiveTrigger.f6a80972918d3c04688abc1ddb56e731
+    Instance: {fileID: 102241369}
+  - Token: DynamicObject.38f485c1d0621314cbe1d10dd6c9a528
+    Instance: {fileID: 255839385}
+  - Token: HintTrigger.375b81ac3b8f9204881a9975559cc3b0
+    Instance: {fileID: 1444566641}
+  - Token: TriggerEnterEvents.6871a06b3df70224c8ea661c508e48fc
+    Instance: {fileID: 596675395}
+  - Token: TriggerEnterEvents.c0287bc72a7d71d49a27d1a81d9d7a1a
+    Instance: {fileID: 1313363078}
+  - Token: DynamicObject.b598aa82cdc1d074d98b62d078d61989
+    Instance: {fileID: 141484306}
+  - Token: InteractableItem.75582a96f9255254d80f41ea8a34b8cd
+    Instance: {fileID: 1967610437}
+  - Token: TriggerEnterEvents.aadbe1dcffed19249a914447eb346fde
+    Instance: {fileID: 669968838}
+  - Token: ObjectiveTrigger.57d74d32322767e48ba509dd3e538b6e
+    Instance: {fileID: 1028490576}
+  - Token: InteractableItem.969da8f6599673d4cb45f45150ab736a
+    Instance: {fileID: 498048537}
+  - Token: InteractableItem.1ec7f1d07d742524ba26cea32b8dab49
+    Instance: {fileID: 29726036}
+  - Token: ObjectiveTrigger.b787184b434456c4b8b00f9fd7024a93
+    Instance: {fileID: 38010700}
+  - Token: InteractableItem.bd8abe469a46eec49a3a251a5ae719a4
+    Instance: {fileID: 5499857}
+  - Token: DialogueTrigger.58adbdf0f64193244bdcbb263f3d173a
+    Instance: {fileID: 460872087}
+  - Token: DialogueTrigger.42eb356925e45d743a8a4061964db151
+    Instance: {fileID: 86295373}
+  - Token: TriggerEnterEvents.9950ea0fb32659f4f8c04070f558649e
+    Instance: {fileID: 199916473}
+  - Token: DynamicObject.24e848eb2363fe040931a6cc3da07b39
+    Instance: {fileID: 181694453}
+  - Token: DynamicObject.24d7e438ea0d6784c8b1f7337c462e0d
+    Instance: {fileID: 1236042294}
+  - Token: DialogueTrigger.6e43e9464e4fac64095c7b4bb861eb8b
+    Instance: {fileID: 1575268742}
+  - Token: ObjectiveTrigger.e1e22b0ed5d23044d86d9993757a5cbe
+    Instance: {fileID: 1404910543}
+  - Token: DynamicObject.924fc48cb70265e4e858bd91fca67086
+    Instance: {fileID: 1625691518}
+  - Token: DynamicObject.8ebf6d30b6dc3284e96cd4f83808e8d5
+    Instance: {fileID: 383163827}
+  - Token: TriggerEnterEvents.eae02cc4a6d2c734e8983d76db4daa41
+    Instance: {fileID: 490688117}
   runtimeSaveables: []
 --- !u!222 &7966555410546061146
 CanvasRenderer:
