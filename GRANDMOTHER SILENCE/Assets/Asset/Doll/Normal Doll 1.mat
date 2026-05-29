@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Doll Ugly Mat 2
+  m_Name: Normal Doll 1
   m_Shader: {fileID: 4800000, guid: 71a090e9b5b488349913abe716bb7bc6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 29a1aa44ca7c3164484c889f73f83c6f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 46c5a200e18436e4691b74e25bacd409, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 29a1aa44ca7c3164484c889f73f83c6f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 46c5a200e18436e4691b74e25bacd409, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -85,9 +85,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints:
-    - _ColorBitDepth: 89
-    - _ResolutionLimit: 331
-    - _SnapsPerUnit: 312
+    - _ColorBitDepth: 224
+    - _ResolutionLimit: 271
+    - _SnapsPerUnit: 190
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AffineTextureStrength: 0
@@ -135,7 +135,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2378392199965774814
+--- !u!114 &2222513692677979667
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
