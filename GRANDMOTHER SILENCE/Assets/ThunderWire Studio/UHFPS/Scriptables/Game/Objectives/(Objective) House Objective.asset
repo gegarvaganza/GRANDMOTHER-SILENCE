@@ -136,20 +136,30 @@ MonoBehaviour:
   - ObjectiveKey: AWayToFightBack
     ObjectiveTitle:
       GlocText: '*A way to fight back'
-      NormalText: 
+      NormalText: A way to fight back
     SubObjectives:
     - SubObjectiveKey: FindWhatWasHiddenBeneathTheStairs
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Find what was hidden beneath the stairs.'
-        NormalText: 
+        NormalText: Find what was hidden beneath the stairs.
   - ObjectiveKey: TheThreeLeftBehind
     ObjectiveTitle:
       GlocText: '*The three left behind'
-      NormalText: 
+      NormalText: The three left behind
     SubObjectives:
     - SubObjectiveKey: FindTheStrangeDollsHiddenAroundTheHouse
       CompleteCount: 3
       ObjectiveText:
-        GlocText: '*Find the strange dolls hidden around the house [count /3'
+        GlocText: '*Find the strange dolls hidden around the house [count] /3'
+        NormalText: Find the strange dolls hidden around the house [count /3
+  - ObjectiveKey: EscapeTheHouse
+    ObjectiveTitle:
+      GlocText: '*Escape the house'
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: LeaveTheHouse
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Leave the house'
         NormalText: 

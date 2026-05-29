@@ -20798,7 +20798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &170952534
 Transform:
   m_ObjectHideFlags: 0
@@ -70581,7 +70581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_TagString
@@ -174819,7 +174819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1384754442
 Transform:
   m_ObjectHideFlags: 0
@@ -229309,10 +229309,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1826259181}
+      addedObject: {fileID: 1826259180}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1826259180}
+      addedObject: {fileID: 1826259181}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97d4e540fed9b4648a2a8f469b5267e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1826259179}
@@ -229430,7 +229430,19 @@ MonoBehaviour:
     volume: 0
   OnTakeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1826259185}
+        m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
+        m_MethodName: TriggerObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnExamineStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -229450,7 +229462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 0
+  triggerType: 1
   objectiveType: 1
   objectiveToAdd:
     ObjectiveKey: 
@@ -229476,15 +229488,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 0
-  objectiveType: 1
+  triggerType: 2
+  objectiveType: 0
   objectiveToAdd:
+    ObjectiveKey: EscapeTheHouse
+    SubObjectives:
+    - LeaveTheHouse
+  objectiveToComplete:
     ObjectiveKey: 
     SubObjectives: []
-  objectiveToComplete:
-    ObjectiveKey: TheThreeLeftBehind
-    SubObjectives:
-    - FindTheStrangeDollsHiddenAroundTheHouse
 --- !u!4 &1827069650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1063546749723073861, guid: aea5a766d0ebbfc4fa751ae75c121cde, type: 3}
@@ -347901,7 +347913,7 @@ MonoBehaviour:
   - Token: DynamicObject.e935ef8dfae5fdf4cacf5c26695553f4
     Instance: {fileID: 883214343}
   - Token: ObjectiveTrigger.89378827ccb4b37489b28452ab833906
-    Instance: {fileID: 1826259185}
+    Instance: {fileID: 0}
   - Token: ObjectiveTrigger.00f6262428a3a0147965e865539f8ec2
     Instance: {fileID: 1057665873}
   - Token: TriggerEnterEvents.7bf514eeb8cda31449b5fcf202407e9d
