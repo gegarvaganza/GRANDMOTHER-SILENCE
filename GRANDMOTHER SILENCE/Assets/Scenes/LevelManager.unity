@@ -70581,7 +70581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7e863b14b5c73d944b419ef060214e5f, type: 3}
       propertyPath: m_TagString
@@ -70818,8 +70818,8 @@ MonoBehaviour:
   audioSource: {fileID: 561142674}
   idleClip: {fileID: 8300000, guid: 50c4664ea770dcd42ae8c60d009559e1, type: 3}
   patrolClip: {fileID: 8300000, guid: 4082b67b49c6bee45805e242376adccd, type: 3}
-  walkClip: {fileID: 8300000, guid: 940570a9de61ea8459449bebfc7ea6cb, type: 3}
-  runClip: {fileID: 8300000, guid: 8ef5537b6df4dd048a0130c61c6cccfc, type: 3}
+  walkClip: {fileID: 8300000, guid: eb597a4fdf307974c8ba37b6b9689f0b, type: 3}
+  runClip: {fileID: 8300000, guid: eb597a4fdf307974c8ba37b6b9689f0b, type: 3}
   agent: {fileID: 561142671}
   currentState: 0
 --- !u!82 &561142674
@@ -242006,7 +242006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1913963727
 Transform:
   m_ObjectHideFlags: 0
