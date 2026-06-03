@@ -32487,8 +32487,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 942416813}
     m_Modifications:
     - target: {fileID: 2638714274828686622, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
+      propertyPath: statusChange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2638714274828686622, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: lockedText.GlocText
-      value: '*The key is somewhere here'
+      value: '*I need to do something'
       objectReference: {fileID: 0}
     - target: {fileID: 2638714274828686622, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
       propertyPath: lockedText.NormalText
@@ -180464,7 +180468,19 @@ MonoBehaviour:
     volume: 0
   OnTakeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1283854540}
+        m_TargetAssemblyTypeName: UHFPS.Runtime.DynamicObject, Assembly-CSharp
+        m_MethodName: SetLockedStatus
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnExamineStartEvent:
     m_PersistentCalls:
       m_Calls: []
