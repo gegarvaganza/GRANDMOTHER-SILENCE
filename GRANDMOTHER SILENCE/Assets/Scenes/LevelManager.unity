@@ -69393,8 +69393,8 @@ Transform:
   m_GameObject: {fileID: 540945920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.65, y: -1.407, z: -1.659}
-  m_LocalScale: {x: 0.61010987, y: 0.92326266, z: 1.763086}
+  m_LocalPosition: {x: 20.87, y: -1.407, z: -1.659}
+  m_LocalScale: {x: 0.4653219, y: 0.92326266, z: 2.9461167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1403942322}
@@ -69418,7 +69418,7 @@ MonoBehaviour:
   JumpscareModelID: scare_zombie
   JumpscareSound:
     audioClip: {fileID: 8300000, guid: e4167af307bfa53478565f58e3dfdb6a, type: 3}
-    volume: 0.2
+    volume: 0.5
   Animator: {fileID: 0}
   AnimatorStateName: Jumpscare
   AnimatorTrigger: Jumpscare
@@ -104905,7 +104905,7 @@ PrefabInstance:
       objectReference: {fileID: 1581466358}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineStartEvent.m_PersistentCalls.m_Calls.Array.size
@@ -104916,6 +104916,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: ExamineHotspot.HotspotAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -104923,6 +104927,10 @@ PrefabInstance:
       propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 111308362}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 540945922}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -104932,8 +104940,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: TriggerJumpscareEnded
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -104960,7 +104976,15 @@ PrefabInstance:
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UHFPS.Runtime.JumpscareTrigger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
@@ -104969,6 +104993,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
       propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
+      propertyPath: OnExamineEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3487196714765767374, guid: 16c09219c4948dd4b955aa8140daf469, type: 3}
